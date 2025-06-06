@@ -3,3 +3,29 @@
 html, body, #root {
   height: 100vh;
 }
+
+:root {
+  /* Background Colors */
+  /* darkest */
+  --bg-app: #0f172a;           /* Main app background (darkest) */
+
+  /* darker */
+  --bg-elevated: #121a2d;       /* Timer circle, cards, panels */
+
+  /* lighter */
+  --bg-surface: #1e293b;      /* Modals, dropdowns, raised elements */
+  
+  /* Accent colors */
+  --accent-primary: #3b82f6;    /* Progress ring, active states */
+  --accent-subtle: #3b82f640;
+  
+  /* States */
+  --state-inactive: #64748b;
+  --state-neutral: #464646;
+  
+  /* Text Colors */
+  --text-primary: #ffffff;      /* Main headings, timer display */
+  --text-secondary: #e2e8f0;    /* Secondary text, labels */
+  --text-muted: #c3ccd6;        /* Tertiary text */
+  --text-subtle: #A3A3A3;       /* Very subtle text */
+}
