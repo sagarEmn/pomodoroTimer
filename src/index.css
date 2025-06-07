@@ -14,13 +14,19 @@ html, body, #root {
 
   /* lighter */
   --bg-surface: #1e293b;      /* Modals, dropdowns, raised elements */
+
+  /* borders */
+  --border: #464646;
+  --state-inactive-subtle: #ffffff44;
   
   /* Accent colors */
   --accent-primary: #3b82f6;    /* Progress ring, active states */
   --accent-subtle: #3b82f640;
   
   /* States */
-  --state-inactive: #64748b;
+  /* --state-inactive: #64748b; */
+  --state-inactive-muted: #a3a3a35e;
+  --state-inactive-subtle: #A3A3A3;
   --state-neutral: #464646;
   
   /* Text Colors */
